@@ -1,0 +1,50 @@
+<!--
+Jordan Firaben
+IT 207 - 002
+Practicum 1
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Practicum 1 Cost of Package Delivery</title>
+		<link rel="stylesheet" href="practicum1.css" type="text/css"/>
+	</head>
+	<body>
+	<!--#include virtual="../header.php"-->
+	<!--#include virtual="../menu.inc"-->
+		<div id="content">
+			<div class="pracform">
+				<div class="heading"><h3>Cost of Package Delivery</h3></div>
+				<div>
+					<form action="shipping.php" method="post">
+					<div>
+						<p>
+							<label for="id_weight">Weight (in Pounds):</label><br/><input id="id_weight" type="text" name="weight" /><br/>
+							<label>Source:</label><br/>
+							<select name="source">
+								<option value="Los Angeles">Los Angeles</option>
+								<option value="Washington">Washington</option>
+								<option value="New York">New York</option>
+							</select><br/>
+							<label>Destination:</label><br/>
+							<select name="destination">
+								<option value="Los Angeles">Los Angeles</option>
+								<option value="Washington">Washington</option>
+								<option value="New York">New York</option>
+							</select><br/>
+						
+						</p>
+						<br/>
+						<div class="bottom"><p><input type="submit" value="Calculate"/></p></div>
+					</div>
+					</form>
+				</div>
+			</div>
+			<p><a href="/~jfiraben/IT207/practicum1/vehicleusage.html">Proceed to Part 2</a></p>
+		</div>
+	<!--#include virtual="../footer.inc"-->
+	</body>
+</html>
