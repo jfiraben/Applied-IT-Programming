@@ -1,0 +1,56 @@
+<!--
+Jordan Firaben
+IT 207 - 002
+Practicum 1
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Practicum 1 Vehicle Usage</title>
+		<link rel="stylesheet" href="practicum1.css" type="text/css"/>
+	</head>
+	<body>
+	<!--#include virtual="../header.php"-->
+	<!--#include virtual="../menu.inc"-->
+		<div id="content">
+			<div class="pracform">
+				<div class="heading"><h3>Vehicle Usage</h3></div>
+				<div>
+					<form action="vehicletoll.php" method="post">
+					<div>
+						<p>
+							<label for="id_buses">Number of buses:</label><br/><input id="id_buses" type="text" name="buses" /><br/>
+							<label for="id_vans">Number of vans:</label><br/><input id="id_vans" type="text" name="vans" /><br/>
+							<label for="id_cars">Number of cars:</label><br/><input id="id_cars" type="text" name="cars" /><br/>
+							<label>Days of the week:</label><br/>
+							<select name="days">
+								<option value="Monday">Monday</option>
+								<option value="Tuesday">Tuesday</option>
+								<option value="Wednesday">Wednesday</option>
+								<option value="Thursday">Thursday</option>
+								<option value="Friday">Friday</option>
+								<option value="Saturday">Saturday</option>
+								<option value="Sunday">Sunday</option>
+							</select><br/>
+						
+						</p>
+						<br/>
+						<div class="bottom"><p><input type="submit" value="Calculate"/></p></div>
+					</div>
+					</form>
+				</div>
+			</div>
+			<p><a href="/~jfiraben/IT207/practicum1/index.html">Proceed to Part 1</a></p>
+			
+			
+			
+			
+			
+			
+		</div>
+	<!--#include virtual="../footer.inc"-->
+	</body>
+</html>
