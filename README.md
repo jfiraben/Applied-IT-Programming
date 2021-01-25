@@ -18,4 +18,4 @@ Objectives:
 > 2. Describe the functionality of some common server-side web application technologies.
 > 3. Demonstrate proficiency in implementing those technologies."
 
-## The assignments and in-class assignments folders contain work done throughout the semester. The final website folder contains the culmination of all work done throughout the semester ending with the final product.
+### The assignments and in-class assignments folders contain work done throughout the semester. The final website folder contains the culmination of all work done throughout the semester ending with the final product.
